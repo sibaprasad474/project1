@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@200&family=Source+Code+Pro:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Smooch+Sans:wght@200&family=Source+Code+Pro:wght@300&display=swap");
+* {
+  /*to remove gaps from both sides of side bar*/
+  margin: 0;
+  padding: 0;
+}
+.sidebar {
+  /* background-color: red; */
+  width: 430px; /*side bar will take 20% of screen*/
+  font-family: "Smooch Sans", sans-serif;
+  height: 100vh;
+  font-weight: bolder;
+  font-size: 20px;
+  background-color: rgb(170, 163, 163);
+}
+.sidebar nav {
+  padding: 37px;
+}
+.sidebar nav li {
+  list-style: none;
+  padding: 33px 0;
+}
+.sidebar nav li a {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  /* border: 1px solid black; */
+}
+.main {
+  /* background-color: yellow; */
+  width: 90vw; /*main content will take 80% screen*/
+  height: 100vh;
+  /* background-image: url('/contactpage.jpg'); */
+  /* background-position: center;  */
+  /* background-size: 1100px; */
+  /* border: 2px solid white; */
+}
+.container {
+  display: flex; /*creating flex box*/
+}
+.infocontainer {
+  /* background-color: rgb(223, 41, 126); */
+  height: 60vh;
+  width: 60vw;
+  margin: 45px auto;
+  display: flex;
+  /* border: 2px solid rgb(199, 47, 47); */
+  justify-content: right;
+  border-end-start-radius: 25px;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-top-right-radius: 25px;
+}
+.devInfo {
+  /* border: 2px solid green; */
+  height: 250px;
+  width: 550px;
+  margin: auto;
+  padding-left: 5px;
+  /* background-color: rgb(211, 230, 45); */
+  border-top-left-radius: 20px;
+}
+.devPic img {
+  height: 68vh;
+  width: 260px;
+}
+.hello {
+  font-family: "Smooch Sans";
+  font-size: 80px;
+  font-weight: bold;
+  padding: 2px;
+}
+.name {
+  font-family: "Source Code Pro";
+  font-weight: bold;
+  font-size: 40px;
+  padding: 3px;
+}
+.about {
+  font-family: "Smooch Sans";
+  font-size: 35px;
+  font-weight: bold;
+  padding-left: 5px;
+  padding-top: 2px;
+}
+.moreabout {
+  padding: 5px;
+  padding-top: 10px;
+}
+.buttons {
+  padding-left: 5px;
+  margin-top: 30px;
+}
+.buttons button {
+  padding: 10px;
+  border-radius: 20px;
+  color: white;
+  background-color: black;
+  font-weight: bold;
+}
+
+.buttons .cv:hover {
+  color: red;
+  text-decoration: none;
+}
+
+.buttons .more {
+  color: red;
+  width: 105px;
+}
+.cv:hover{
+  text-decoration: none;
+  list-style: none;
+}
+
+
+/* --------------------------------------- */
+
+
+/* starting of contact page designing */
+
+
+.main2 {
+  background-image: url("/blackbg1.jpg");
+  background-position: center;
+  background-size: 950px;
+  width: 70vw;
+}
+.contacthead {
+  text-align: center;
+  color: rgb(65, 12, 12);
+  padding-top: 50px;
+  font-family: "Pacifico", "cursive";
+  margin-bottom: 40px;
+}
+form{
+  margin-top: 70px;
+}
+.contactme {
+  border: 3px solid rgb(46, 17, 44);
+  margin-left: 212px;
+  width: 520px;
+  background-color: transparent;
+  border-radius: 15px;
+  color: white;
+  height: 345px;
+  font-size: bold;
+}
+.contactme .forminputs{
+  padding: 5px;
+  padding-left: 55px;
+  margin-top: 10px;
+}
+.forminput1{
+color: white;
+font-size: 20px;
+font-family:"Source Code Pro";
+font-weight: bold;
+}
+#Cname{
+  height: 25px;
+  width: 254px;
+  border-radius: 22px;
+  /* background-color:white; */
+  margin-left: -20px;
+  padding-left: 2px;
+  background-color: transparent;
+  color: white;
+}
+.forminput2{
+color: white;
+font-size: 20px;
+font-family:"Source Code Pro";
+font-weight: bold;
+padding-right: 12px;
+}
+#Cemail{
+  height: 25px;
+  width: 254px;
+  border-radius: 22px;
+  background-color: transparent;
+  color: white;
+  padding-left: 5px;
+}
+.forminput3{
+color: white;
+font-size: 20px;
+font-family:"Source Code Pro";
+font-weight: bold;
+  }
+#Cno{
+  height: 25px;
+  width: 254px;
+  border-radius: 22px;
+  background-color: transparent;
+  color: white;
+  padding-left: 5px;
+  }
+  #inputn{
+    padding-right: 58px;
+  }
+  #inputmb{
+    padding-right: 12px;
+  }
+  .sbtn{
+    margin-top: 50px;
+    margin-left: 250px;
+    height: 32px;
+    border-radius: 13px;
+    background-color: transparent;
+    border-color: #1e0661;
+    color: rgb(255, 253, 253);
+    width: 100px;
+    margin-left: 210px;
+    font-size:smaller;
+    font-weight: bold;
+  }
+  .sbtn:hover{
+    background-color:#33063b50;
+  }
+  /* ---------------------------------------------- */
+        
