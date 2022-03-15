@@ -32,9 +32,9 @@
   /* background-color: yellow; */
   width: 90vw; /*main content will take 80% screen*/
   height: 100vh;
-  /* background-image: url('/contactpage.jpg'); */
-  /* background-position: center;  */
-  /* background-size: 1100px; */
+  background-image: url('/contactpage.jpg');
+  background-position: center; 
+  background-size: 1100px;
   /* border: 2px solid white; */
 }
 .container {
@@ -105,9 +105,10 @@
   color: red;
   text-decoration: none;
 }
-
-.buttons .more {
+.buttons .more:hover{
   color: red;
+}
+.buttons .more {
   width: 105px;
 }
 .cv:hover{
@@ -134,3 +135,49 @@
   padding-top: 50px;
   margin-bottom: 40px;
 }
+.section{
+  border-color: black;
+  margin-right: 55px;
+  margin-left: 62px;
+  background-color:  #d3155b;
+  color: white;
+  border-radius: 20px;
+}
+.mb-3 , #enailHelp .form-label {
+  padding: 15px;
+  margin-left: 215px;
+}
+.mb-3{
+  /* border: 1px solid black; */
+  margin-top: 10px;
+  margin-bottom: 8px;
+  width: 322px;
+  font-size: 20px;
+}
+#emailHelp{
+  font-size: 15px;
+  font-style: italic;
+}
+.btn{
+  padding: 10px;
+  margin-left: 355px;
+  width: 100px;
+  height: 40px;
+  margin-bottom: 10px;
+  border-radius: 27px;
+  text-align: center;
+}
+#phone1{
+  padding-right: 62px;
+}
+#exampleInputPhone{
+  height: 25px;
+  width: 200px;
+  border-radius: 15px;
+}
+#exampleInputEmail1{
+  height: 25px;
+  width: 200px;
+  border-radius: 15px;
+}
+
